@@ -1,0 +1,22 @@
+{
+  "name": "carvaan",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js --ext js,hbs"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "express": "^5.2.1",
+    "hbs": "^4.2.0",
+    "jquery": "^3.7.1",
+    "mongoose": "^8.21.0",
+    "validator": "^13.15.26"
+  }
+}

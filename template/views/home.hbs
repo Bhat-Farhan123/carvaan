@@ -1,0 +1,209 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/common.css" />
+  <title>Carvaan</title>
+  <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+
+
+</head>
+
+<body>
+  {{> header }}
+  {{> navbar }}
+
+  {{!--------- Hero section start ---------------------------}}
+  <div class="container-fluid  p-4 rounded shadow-sm mt-2 pb-0 
+ " id="hero-section">
+    <div class="row g-4 ">
+
+      <div class="col-12 col-md-6">
+        <div class="p-4 pt-5 bg-white rounded  text-center">
+          <h1 id="hero-h11">WE WILL HELP YOU TO</h1>
+          <h1 id="hero-h12">GROW YOUR BUSINESS</h1>
+          <p>We Are The Team Of <span id="hero-p">Professional Developers </span></p>
+
+          <button type="button" class="btn btn-primary btn-lg" id="hero-btn">Read More</button>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6">
+        <div class="p-4 bg-white rounded  text-center">
+          <img src="/images/team.svg" alt="imgage" id="hero-img">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  {{!--------- Hero section end ---------------------------}}
+
+
+
+  {{! -------- About Us Section Start ------------------------------- }}
+<section class="container my-5 mt-0" id="about-section">
+  <div class="d-flex align-items-center gap-3" id="about-tittle">
+    <h3 class=" fw-bold" id="about-h2">ABOUT US</h3>
+  <p id="about-p1" class="mb-0 ">Grow your businesses with us</p>
+  </div>
+  
+  <div class="row align-items-center g-4">
+
+    <!-- LEFT: IMAGE -->
+    <div class="col-12 col-md-6 text-center">
+      <img src="/images/aboutUs.svg" alt="About Us" id="about-img"
+           class="img-fluid about-img">
+    </div>
+
+    <!-- RIGHT: CONTENT -->
+    <div class="col-12 col-md-6">
+    
+      <h2 class="fw-bold mb-3" id="about-h22">We Build Digital Solutions</h2>
+      <p class="text-muted">
+        We are a team of professional developers passionate about creating
+        modern, responsive, and scalable web applications.
+      </p>
+      <p class="text-muted">
+        Our mission is to help businesses grow by delivering high-quality
+        digital products with clean design and powerful performance.
+      </p>
+
+      <button class="btn  mt-2" id="about-btn">
+        Learn More
+      </button>
+    </div>
+
+  </div>
+</section>
+{{! -------- About Us Section End -------- }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{! -------- Our Services Section Start -------- }}
+<section class="container " id="services-section">
+
+  <!-- SECTION TITLE -->
+  <div class="d-flex align-items-center gap-3 mb-4" id="card-tittle">
+    <h3 class="fw-bold mb-0">OUR SERVICES</h3>
+    <p class="mb-0 text-muted">What we offer</p>
+  </div>
+
+
+  <!-- SERVICES GRID -->
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+
+  <div class="col">
+    <div class="card ">
+        <img src="/images/cardWeb.jpg" class="card-img-top" alt="web development"/>
+        <div class="card-body">
+            <h5 class="card-title">Web Developmen</h5>
+            <p class="card-text">
+                Modern, responsive, and scalable websites built with clean code, performance, and security in mind
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/cardWeb2.jpg
+      " class="card-img-top" alt="Palm Springs Road"/>
+      <div class="card-body">
+        <h5 class="card-title">UI / UX Design</h5>
+        <p class="card-text">User-friendly and visually appealing designs that enhance user experience and engagement.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/cardWeb3.jpg" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+      <div class="card-body">
+        <h5 class="card-title">SEO Optimization</h5>
+        <p class="card-text">Improve website visibility and performance with search-engine-friendly and optimized solutions.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/cardWeb4.jpg" class="card-img-top" alt="Skyscrapers"/>
+      <div class="card-body">
+        <h5 class="card-title">Maintenance & Support</h5>
+        <p class="card-text">
+         Continuous monitoring, updates, and technical support to keep your systems running smoothly.
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/cardWeb5.jpg" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+      <div class="card-body">
+        <h5 class="card-title">Cloud & Hosting Solutions</h5>
+        <p class="card-text">Secure and reliable cloud hosting solutions to ensure high availability, scalability, and performance..</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/cardWeb6.jpg" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+      <div class="card-body">
+        <h5 class="card-title">E-Commerce Solutions</h5>
+        <p class="card-text">Custom online stores with secure payments, smooth user experience, and scalable architecture..</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+{{! -------- Our Services Section End -------- }}
+
+<section class="container " id="contact-section">
+
+  
+  <div class="d-flex align-items-center gap-3 mb-4" id="contact-tittle">
+    <h3 class="fw-bold mb-0">CONTACT US</h3>
+    <p class="mb-0 text-muted"> : Get in touch with us</p>
+  </div>
+  
+
+  {{>contact}}
+
+</section>
+
+
+
+
+{{>footer}}
+
+
+
+
+
+
+
+
+</body>
+
+</html>
