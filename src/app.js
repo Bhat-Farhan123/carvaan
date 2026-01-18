@@ -33,7 +33,7 @@ app.get("/gallery", (req, res) => {
 });
 
 app.get("/contact", (req, res) => {
-  res.render("contact");
+  res.render("home");
 });
 
 // create a new contact us page in database---------------
