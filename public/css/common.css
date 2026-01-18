@@ -165,7 +165,7 @@ html, body {
   background-color:#131132;
   padding: 14px 0;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px;
+ 
 }
 
 .carvaan-logo {
@@ -257,12 +257,21 @@ html, body {
   color: var(--dark);
 }
 
-.hero-img {
-    max-height: 60vh;    /* 60% of screen height */
-  width: auto;
+.hero-img-shadow {
+  display: inline-block;
+ filter: drop-shadow(0px 30px 60px rgba(123, 40, 114, 0.75));
 
+  
+}
+
+
+
+.hero-img {
+  max-height: 60vh;
+  width: auto;
   animation: float 4s ease-in-out infinite;
 }
+
 
 @keyframes float {
   0% { transform: translateY(0); }
@@ -281,4 +290,32 @@ html, body {
 
 #contact-submit{
     background-color: #f0922f;
+}
+
+/*-----------------hero left-------------------*/
+.left-hero {
+  
+  border-radius: 50px;
+
+  box-shadow:
+    0 0 0 2px rgba(37, 36, 36, 0.15),
+    0 0 25px rgba(128, 128, 128, 0.25);
+
+  padding: 40px;
+}
+
+.left-hero:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 0 0 1.5px rgba(53, 48, 48, 0.1),
+    0 18px 40px rgba(123, 123, 123, 0.18);
+}
+.left-hero {
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .left-hero {
+    margin-top: 50px;   /* pushes it down */
+  }
 }
